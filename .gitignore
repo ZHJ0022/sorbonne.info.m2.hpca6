@@ -1,0 +1,10 @@
+
+# Build directory
+/build/
+
+# Compiled files
+*.o
+
+# Python cache
+__pycache__/
+*.pyc
