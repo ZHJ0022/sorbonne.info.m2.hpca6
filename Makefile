@@ -1,6 +1,6 @@
 NVCC = nvcc
 NVCCFLAGS = -std=c++17 -Iinclude
-LDLIBS =
+LDLIBS = -lcurand
 TARGET = question1
 
 SOURCES = src/question1/main.cu src/question1/simulation.cu src/question1/output.cpp
