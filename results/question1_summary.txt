@@ -1,0 +1,9 @@
+Question 1: existing CSV vs analytical reference
+Model: r0=0.012, a=1, sigma=0.1; theta(t) from the subject.
+Grid: 1001 points, dt=0.01.
+
+Curve: maximum absolute error, RMSE
+P(0,T): 0.00155972277, 0.00110456929
+f(0,T): 0.000607257055, 0.000234245696
+
+Errors include sampling and trapezoidal integration errors.
